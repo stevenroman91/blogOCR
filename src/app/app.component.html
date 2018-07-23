@@ -1,0 +1,13 @@
+<div class="container">
+  <h1>{{ title }}</h1>
+  <div class="row">
+    <div class="col-xs-12">
+      <h2>Posts:</h2>
+<!--       <p>Mis à jour: {{ lastUpdate | async | date: 'yMMMMEEEEd' | uppercase }}</p> -->
+      <!-- <app-postlist></app-postlist> -->
+      <app-postlist [posts]="posts"></app-postlist>
+    </div>
+  </div>
+</div>
+
+
